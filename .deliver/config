@@ -2,9 +2,9 @@ APP="test"
 
 BUILD_HOST="34.234.64.194"
 BUILD_USER="ubuntu"
-BUILD_AT="/tmp/edeliver/$APP/builds"
+BUILD_AT="/home/ubuntu/app_build"
 
-RELEASE_DIR="/tmp/edeliver/$APP/builds/_build/prod/rel/$APP"
+RELEASE_DIR="/home/ubuntu/app_build/_build/prod/rel/$APP"
 
 # prevent re-installing node modules; this defaults to "."
 GIT_CLEAN_PATHS="_build rel priv/static"
@@ -15,7 +15,7 @@ GIT_CLEAN_PATHS="_build rel priv/static"
 
 PRODUCTION_HOSTS="34.234.64.194 54.91.181.41"
 PRODUCTION_USER="ubuntu"
-DELIVER_TO="/home/ubuntu"
+DELIVER_TO="/home/ubuntu/app_release"
 
 # For *Phoenix* projects, symlink prod.secret.exs to our tmp source
 pre_erlang_get_and_update_deps() {
