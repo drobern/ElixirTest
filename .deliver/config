@@ -1,6 +1,6 @@
 APP="test"
 
-BUILD_HOST="52.201.238.2"
+BUILD_HOST="34.234.64.194"
 BUILD_USER="ubuntu"
 BUILD_AT="/tmp/edeliver/$APP/builds"
 
