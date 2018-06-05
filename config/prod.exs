@@ -14,7 +14,7 @@ use Mix.Config
 config :test, Test.Endpoint,
   http: [port: 4000],
   url: [host: "example.com", port: 80],
-  cache_static_manifest: "priv/static/manifest.json",
+  cache_static_manifest: "priv/static/manifest.json"
   #server: true,
   #code_reloader: false
 
