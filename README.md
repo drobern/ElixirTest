@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/drobern/ElixirTest.svg?branch=master)](https://travis-ci.org/drobern/ElixirTest)
 
-[![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTFJtRUZOOEZzdTNwY09aRyttTVdTZ21Mc29KMXNoWHY1RjVmaDYwZHhxcllXelEzcGFPQ2s2dURFa0swYlBZM0dQbzJXSnh5N2Vmb0hlQW5GeXNqMnZBPSIsIml2UGFyYW1ldGVyU3BlYyI6IlZEcXhybTdKUEMxWkM1WW8iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)
+[![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTFJtRUZOOEZzdTNwY09aRyttTVdTZ21Mc29KMXNoWHY1RjVmaDYwZHhxcllXelEzcGFPQ2s2dURFa0swYlBZM0dQbzJXSnh5N2Vmb0hlQW5GeXNqMnZBPSIsIml2UGFyYW1ldGVyU3BlYyI6IlZEcXhybTdKUEMxWkM1WW8iLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=master)]
 
 # Test
 
