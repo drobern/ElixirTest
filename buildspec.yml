@@ -14,5 +14,5 @@ phases:
     commands:
       - echo Build completed on `date`
       - cp ./_build/prod/rel/test/releases/*/test.tar.gz .
-  artifacts:
-    files: ./_build/prod/rel/test/releases/*/test.tar.gz
+artifacts:
+  files: test.tar.gz
