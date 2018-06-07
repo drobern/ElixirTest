@@ -16,3 +16,4 @@ phases:
       - cp ./_build/prod/rel/test/releases/*/test.tar.gz .
 artifacts:
   files: test.tar.gz
+  discard-paths: yes
