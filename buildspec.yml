@@ -14,6 +14,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - cp ./_build/prod/rel/test/releases/*/test.tar.gz .
+      - mv test{,$(git describe --tags 2>> /dev/null || git rev-parse HEAD)}.tar.gz 
 artifacts:
-  files: test.tar.gz
+  files: test*.tar.gz
   discard-paths: yes
