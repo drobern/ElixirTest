@@ -10,3 +10,5 @@ phases:
       - mix deps.get
       - mix test
       - MIX_ENV=prod mix release
+artifacts:
+  files: ./_build/prod/rel/test/releases/*/test.tar.gz
