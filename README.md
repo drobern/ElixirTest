@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/drobern/ElixirTest.svg?branch=master)](https://travis-ci.org/drobern/ElixirTest)
+
 # Test
 
 To start your Phoenix app:
