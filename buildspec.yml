@@ -10,5 +10,9 @@ phases:
       - mix deps.get
       - mix test
       - MIX_ENV=prod mix release
-artifacts:
-  files: ./_build/prod/rel/test/releases/*/test.tar.gz
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - cp ./_build/prod/rel/test/releases/*/test.tar.gz .
+  artifacts:
+    files: ./_build/prod/rel/test/releases/*/test.tar.gz
