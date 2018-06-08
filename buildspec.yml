@@ -10,7 +10,7 @@ phases:
       - echo Build started on `date` in dir `pwd`
       - mix deps.get
       - mix test
-      - mix release --env=prod
+      - MIX_ENV=prod mix release
   post_build:
     commands:
       - echo Build completed on `date`
