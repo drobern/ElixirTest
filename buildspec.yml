@@ -3,13 +3,15 @@ version: 0.1
 phases:
   build:
     commands:
+      - cd $CODEBUILD_SRC_DIR
       - git rev-parse --abbrev-ref HEAD
       - mix local.hex --force
       - mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez --force
       - mix local.rebar --force
+      - echo Build started on `date` in dir `pwd`
       - mix deps.get
       - mix test
-      - MIX_ENV=prod mix release
+      - mix release --env=prod
   post_build:
     commands:
       - echo Build completed on `date`
