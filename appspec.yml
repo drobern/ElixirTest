@@ -5,7 +5,7 @@ hooks:
     - location: scripts/stop.sh
       runas: owner
   AfterInstall:
-    - location: scripts/compile.sh
+    - location: scripts/clean.sh
       runas: root
   ApplicationStart:
     - location: scripts/start.sh
