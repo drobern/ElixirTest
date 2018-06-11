@@ -18,7 +18,6 @@ phases:
       - bash -c 'mv test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
       - echo ls test*.tar.gz
 artifacts:
-  base_directory: _build/prod/rel/test/releases/*
   files: 
     - test*.tar.gz
   discard-paths: yes
