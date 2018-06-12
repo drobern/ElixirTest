@@ -19,6 +19,6 @@ phases:
       - echo ls test*.tar.gz
 artifacts:
   files: 
-    - test.tar.gz
+    - ./test.tar.gz
   discard-paths: yes
  
