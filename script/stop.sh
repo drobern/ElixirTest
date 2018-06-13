@@ -1,3 +1,3 @@
-#/bin/bash
+#!/bin/bash
 
-./bin/test stop
+./test/bin/test stop

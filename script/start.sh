@@ -1,4 +1,4 @@
-#/bin/bash
-
+#!/bin/bash
 tar -xvf *.tar
-./bin/test start
+mv test* test
+./test/bin/test start
