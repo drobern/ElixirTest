@@ -2,11 +2,15 @@ version: 0.0
 os: linux 
 hooks:
   ApplicationStop:
+    - location: scripts/dregister_from_elb.sh
+      runas: owner
     - location: scripts/stop.sh
       runas: owner
   AfterInstall:
     - location: scripts/clean.sh
-      runas: root
+      runas: owner
   ApplicationStart:
+    - location: scripts/register_with_elb.sh
+      runas: owner
     - location: scripts/start.sh
       runas: owner
