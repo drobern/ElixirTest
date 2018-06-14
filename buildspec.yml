@@ -15,6 +15,9 @@ phases:
     commands:
       - echo Build completed on `date`
       - cp ./_build/prod/rel/test/releases/*/test.tar.gz .
+      - gunzip test.tar.gz
+      - tar -rf test.tar appspec.yml script
+      - gzip test.tar
       - bash -c 'mv test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
       - echo ls test*.tar.gz
 artifacts:
