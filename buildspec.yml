@@ -22,5 +22,6 @@ phases:
       - echo ls test*.tar.gz
 artifacts:
   files: 
+    - meta.json
     - test*.tar.gz
   discard-paths: yes

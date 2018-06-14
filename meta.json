@@ -1,0 +1,4 @@
+{
+  "x-amz-meta-application-name": "SMSScaleElixirApp",
+  "x-amz-meta-deployment-group": "smsautoscaleprofile-DemoDeploymentGroup-HXP2RCLI0PM3"
+}
