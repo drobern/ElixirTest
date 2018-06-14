@@ -19,9 +19,8 @@ phases:
       - tar -rf test.tar appspec.yml script
       - gzip test.tar
       - bash -c 'mv test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
-      - echo ls test*.tar.gz
 artifacts:
-  files: 
+  files:
     - meta.json
     - test*.tar.gz
   discard-paths: yes
