@@ -1,3 +1,3 @@
 #!/bin/bash
-
-ls -lrt
+echo $(pwd)
+ls -la

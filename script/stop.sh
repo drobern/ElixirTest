@@ -1,4 +1,5 @@
 #!/bin/bash
-if [ -d test ]; then
-    test/bin/test stop
-fi
+echo $(pwd)
+ls -la
+chmod +x bin/test
+bin/test stop
