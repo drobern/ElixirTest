@@ -21,6 +21,5 @@ phases:
       - bash -c 'mv test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
 artifacts:
   files:
-    - meta.json
     - test*.tar.gz
   discard-paths: yes

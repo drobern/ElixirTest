@@ -8,7 +8,7 @@ hooks:
       runas: owner
   AfterInstall:
     - location: script/clean.sh
-      runas: owner
+      runas: root
   ApplicationStart:
     - location: script/register_with_elb.sh
       runas: owner
