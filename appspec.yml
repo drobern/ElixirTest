@@ -11,6 +11,6 @@ hooks:
       runas: root
   ApplicationStart:
     - location: script/register_with_elb.sh
-      runas: owner
+      runas: ubuntu
     - location: script/start.sh
-      runas: owner
+      runas: ubuntu
