@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69a8c9a7-7f30-45dd-9af4-03858ad2ea8a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +25,8 @@
       <file leaf-file-name="appspec.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appspec.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            <state relative-caret-position="60">
+              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -141,8 +140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appspec.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>

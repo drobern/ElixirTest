@@ -2,7 +2,7 @@ version: 0.0
 os: linux 
 hooks:
   ApplicationStop:
-    - location: script/dregister_from_elb.sh
+    - location: script/dergister_from_elb.sh
       runas: owner
     - location: script/stop.sh
       runas: owner
