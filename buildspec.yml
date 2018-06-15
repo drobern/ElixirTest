@@ -3,6 +3,14 @@ version: 0.1
 phases:
   build:
     commands:
+      - apt-get update
+      - apt-get -y install git curl
+      - apt-get -y install wget
+      - wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb
+      - dpkg -i erlang-solutions_1.0_all.deb
+      - apt-get update
+      - apt-get install -y erlang
+      - apt-get install -y elixir
       - git rev-parse --abbrev-ref HEAD
       - mix local.hex --force
       - mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez --force
@@ -15,11 +23,16 @@ phases:
     commands:
       - echo Build completed on `date`
       - cp ./_build/prod/rel/test/releases/*/test.tar.gz .
-      - gunzip test.tar.gz
-      - tar -rf test.tar appspec.yml script
-      - gzip test.tar
-      - bash -c 'mv test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
-      - echo ls -lrt *.tar.gz
+      - tar -tvf test.tar.gz
+      - mkdir temp
+      - mv test.tar.gz temp/.
+      - tar -zxvf temp/test.tar.gz
+      - cp appspec.yml temp/.
+      - cp -r script/ temp/.
+      - tar -zcvf test.tar.gz *
+      - tar -tvf test.tar.gz
+      - bash -c 'mv temp/test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
+      - ls -la *.tar.gz
 artifacts:
   files:
     - test*.tar.gz
