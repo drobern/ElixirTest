@@ -19,6 +19,7 @@ phases:
       - tar -rf test.tar appspec.yml script
       - gzip test.tar
       - bash -c 'mv test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
+      - echo ls *.tar.gz
 artifacts:
   files:
     - test*.tar.gz
