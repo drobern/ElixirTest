@@ -3,9 +3,9 @@ os: linux
 hooks:
   ApplicationStop:
     - location: script/deregister_from_elb.sh
-      runas: owner
+      runas: ubuntu
     - location: script/stop.sh
-      runas: owner
+      runas: ubuntu
   AfterInstall:
     - location: script/clean.sh
       runas: root

@@ -1,4 +1,4 @@
 #!/bin/bash
-tar -xvf *.tar.gz
-mv test* test
-./test/bin/test start
+mkdir test
+tar xzvf *.tar.gz -C test
+test/bin/test start

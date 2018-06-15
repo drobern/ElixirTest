@@ -1,3 +1,4 @@
 #!/bin/bash
-
-./test/bin/test stop
+if [ -d test ]; then
+    test/bin/test stop
+fi
