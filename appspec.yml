@@ -13,4 +13,4 @@ hooks:
     - location: script/register_with_elb.sh
       runas: ubuntu
     - location: script/start.sh
-      runas: ubuntu
+      runas: root
