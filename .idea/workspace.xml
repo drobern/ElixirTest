@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a8c9a7-7f30-45dd-9af4-03858ad2ea8a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/script/clean.sh" beforeDir="false" afterPath="$PROJECT_DIR$/script/clean.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/script/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/stop.sh" beforeDir="false" afterPath="$PROJECT_DIR$/script/stop.sh" afterDir="false" />
     </list>
@@ -36,8 +35,8 @@
       <file leaf-file-name="stop.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script/stop.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -45,8 +44,8 @@
       <file leaf-file-name="start.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/script/start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="17" selection-start-line="3" selection-end-line="3" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="1" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -71,8 +70,8 @@
         <option value="$PROJECT_DIR$/meta.json" />
         <option value="$PROJECT_DIR$/buildspec.yml" />
         <option value="$PROJECT_DIR$/appspec.yml" />
-        <option value="$PROJECT_DIR$/script/start.sh" />
         <option value="$PROJECT_DIR$/script/clean.sh" />
+        <option value="$PROJECT_DIR$/script/start.sh" />
         <option value="$PROJECT_DIR$/script/stop.sh" />
       </list>
     </option>
@@ -317,15 +316,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script/start.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="1" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/script/stop.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
