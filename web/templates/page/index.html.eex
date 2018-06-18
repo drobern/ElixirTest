@@ -1,5 +1,5 @@
 <div class="jumbotron">
-  <h2><%= gettext "Welcome to SMS DEVELOPMENT DEVOPS WORK", name: "Phoenix!" %></h2>
+  <h2><%= gettext "Welcome to SMS DEVELOPMENT DEVOPS WORK MACH II", name: "Phoenix!" %></h2>
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
 </div>
 

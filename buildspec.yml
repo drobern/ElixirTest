@@ -23,16 +23,14 @@ phases:
     commands:
       - echo Build completed on `date`
       - cp ./_build/prod/rel/test/releases/*/test.tar.gz .
-      - tar -tvf test.tar.gz
       - mkdir temp
-      - mv test.tar.gz temp/.
-      - tar -zxvf temp/test.tar.gz
+      - tar -zxvf test.tar.gz -C temp
+      - cp -r script temp/.
       - cp appspec.yml temp/.
-      - cp -r script/ temp/.
-      - tar -zcvf test.tar.gz *
+      - bash -c '(cd temp/ && tar -zcvf ../test.tar.gz *)'
       - tar -tvf test.tar.gz
-      - bash -c 'mv temp/test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
-      - ls -la *.tar.gz
+      - bash -c 'mv test{,-$(git describe --tags || git rev-parse HEAD)}.tar.gz'
+      - ls -lrt *.tar.gz
 artifacts:
   files:
     - test*.tar.gz

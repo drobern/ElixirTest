@@ -5,7 +5,7 @@ hooks:
     - location: script/deregister_from_elb.sh
       runas: ubuntu
     - location: script/stop.sh
-      runas: ubuntu
+      runas: root
   AfterInstall:
     - location: script/clean.sh
       runas: root
